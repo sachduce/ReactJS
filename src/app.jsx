@@ -25,7 +25,7 @@ class App extends React.Component{
                     data.map(function (item) {
                         return(<Thumbnail
                             key= {item.title}
-                            title={item.title}
+                            title={item.title} /**/
                             url= {item.url}
                             setCurrent={this.setCurrent}
                         />)
